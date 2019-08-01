@@ -148,6 +148,9 @@ TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-05-01
 
+# Compile libhwui in performance mode
+HWUI_COMPILE_FOR_PERF := true
+
 # Sepolicy
 include device/qcom/sepolicy/sepolicy.mk
 
